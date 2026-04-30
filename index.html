@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tripadvisor Clone</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- ========== NAVBAR ========== -->
+<header class="navbar">
+  <div class="nav-top">
+    <a href="#" class="logo">
+      <div class="logo-owl">🦉</div>
+      <span class="logo-text">Tripadvisor</span>
+    </a>
+    <div class="nav-search">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+      <input type="text" placeholder="Search">
+    </div>
+    <div class="nav-right">
+      <button class="btn-plan-ai">✨ Plan with AI</button>
+      <a href="#" class="nav-link">Discover</a>
+      <a href="#" class="nav-link">Review</a>
+      <button class="btn-currency">🌐 INR</button>
+      <button class="btn-signin">Sign in</button>
+    </div>
+  </div>
+  <nav class="nav-sub">
+    <div class="nav-sub-inner">
+      <a href="#" class="active">Hotels</a>
+      <a href="#">Things to Do</a>
+      <a href="#">Restaurants</a>
+      <a href="#">Forums</a>
+    </div>
+  </nav>
+</header>
+
+<!-- ========== HERO ========== -->
+<section class="hero">
+  <h1>Where to?</h1>
+  <div class="hero-tabs">
+    <button class="hero-tab active">🏠 Search All</button>
+    <button class="hero-tab">🛏️ Hotels</button>
+    <button class="hero-tab">📷 Things to Do</button>
+    <button class="hero-tab">🍴 Restaurants</button>
+  </div>
+  <div class="hero-search">
+    <svg style="margin-left:20px;flex-shrink:0;color:#888" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+    <input type="text" placeholder="Places to go, things to do, hotels...">
+    <button class="hero-search-btn">Search</button>
+  </div>
+</section>
+
+<!-- ========== HERO BANNER ========== -->
+<div class="banner">
+  <div class="banner-inner">
+    <div class="banner-img">
+      
+      <img src="images/aurora.jpg" alt="Aurora">
+      <div class="banner-label">@teapottwins</div>
+    </div>
+    <div class="banner-content">
+      <h2>Find things to do for everything you're into</h2>
+      <p>Browse 400,000+ experiences and book with us.</p>
+      <button class="btn-dark">Book now</button>
+    </div>
+  </div>
+</div>
+
+<!-- ========== INTERESTS ========== -->
+<section class="section">
+  <div class="section-header">
+    <h2>Find things to do by interest</h2>
+    <p>Whatever you're into, we've got it</p>
+  </div>
+  <div class="interests-grid">
+
+    <div class="interest-card">
+      <img src="images/outdoors.jpg" alt="Outdoors">
+      <div class="interest-label">Outdoors</div>
+    </div>
+
+    <div class="interest-card">
+      <img src="images/food.jpg" alt="Food">
+      <div class="interest-label">Food</div>
+    </div>
+
+    <div class="interest-card">
+      <img src="images/culture.jpg" alt="Culture">
+      <div class="interest-label">Culture</div>
+    </div>
+
+    <div class="interest-card">
+      <img src="images/water.jpg" alt="Water">
+      <div class="interest-label">Water</div>
+    </div>
+
+  </div>
+</section>
+
+<hr class="divider">
+
+<!-- ========== PROMO CARD - TOKYO ========== -->
+<section class="section">
+  <div class="promo-card">
+    <div class="promo-card-img">
+      <img src="images/tokyo.jpg" alt="Tokyo">
+    </div>
+    <div class="promo-card-body">
+      <div>
+        <div class="promo-tag">In partnership with TCVB</div>
+        <div class="promo-title">Tokyo for two with Hemani and Sagar</div>
+        <div class="promo-desc">Tokyo has something for everyone, offering unforgettable experiences that create lasting memories for you and your loved ones.</div>
+      </div>
+      <button class="btn-outline">View now</button>
+    </div>
+  </div>
+</section>
+
+<hr class="divider">
+
+<!-- ========== EXPERIENCES NEAR CHENNAI ========== -->
+<section class="section">
+  <div class="section-header">
+    <h2>Explore experiences near Chennai (Madras)</h2>
+    <p>Can't-miss picks near you</p>
+  </div>
+
+  <div class="carousel-wrap">
+    <div class="cards-row">
+
+      <div class="exp-card">
+        <div class="exp-card-img">
+          <img src="images/mahabalipuram.jpg" alt="Mahabalipuram">
+          <button class="heart-btn">🤍</button>
+          <div class="award-badge">🦉<br>2025</div>
+        </div>
+        <div class="exp-card-body">
+          <div class="exp-card-title">Mahabalipuram tour by Tourism Ministry approved company</div>
+          <div class="stars"><span class="rating-num">5.0</span><div class="star-dots"><span></span><span></span><span></span><span></span><span></span></div><span class="review-count">(405)</span></div>
+          <div class="price">from ₹9999 per adult</div>
+        </div>
+      </div>
+
+      <div class="exp-card">
+        <div class="exp-card-img">
+          <img src="images/chennai-tour.jpg" alt="Chennai Tour">
+          <button class="heart-btn">🤍</button>
+          <div class="award-badge">🦉<br>2025</div>
+        </div>
+        <div class="exp-card-body">
+          <div class="exp-card-title">Chennai tour in car with guide - winner of traveller's choice award</div>
+          <div class="stars"><span class="rating-num">5.0</span><div class="star-dots"><span></span><span></span><span></span><span></span><span></span></div><span class="review-count">(266)</span></div>
+          <div class="price">from ₹4,500 per adult</div>
+        </div>
+      </div>
+
+      <div class="exp-card">
+        <div class="exp-card-img">
+          <img src="images/street-food.jpg" alt="Street Food">
+          <button class="heart-btn">🤍</button>
+        </div>
+        <div class="exp-card-body">
+          <div class="exp-card-title">Sowcarpet Street Food Walking Tour in Chennai with guide</div>
+          <div class="stars"><span class="rating-num">5.0</span><div class="star-dots"><span></span><span></span><span></span><span></span><span></span></div><span class="review-count">(90)</span></div>
+          <div class="price">from ₹2999 per adult</div>
+        </div>
+      </div>
+
+      <div class="exp-card">
+        <div class="exp-card-img">
+         <img src="images/birding.jpg" alt="Birding">
+          <button class="heart-btn">🤍</button>
+        </div>
+        <div class="exp-card-body">
+          <div class="exp-card-title">Chennai, Guided Birding And Birding Photo Trip With Spot Scope, 2 to 3 Hours</div>
+          <div class="stars"><span class="rating-num">5.0</span><div class="star-dots"><span></span><span></span><span></span><span></span><span></span></div><span class="review-count">(16)</span></div>
+          <div class="price">from ₹2800 per adult</div>
+        </div>
+      </div>
+
+    </div>
+    <button class="arrow-btn">›</button>
+  </div>
+</section>
+
+<hr class="divider">
+
+<!-- ========== ADVENTURES ========== -->
+<section class="section">
+  <div class="section-header">
+    <h2>Adventures of a lifetime</h2>
+  </div>
+  <div class="carousel-wrap">
+    <div class="cards-row">
+
+      <div class="exp-card">
+        <div class="exp-card-img">
+          <img src="images/machu-picchu.jpg" alt="Machu Picchu">
+          <button class="heart-btn">🤍</button>
+          <div class="award-badge">🦉<br>2025</div>
+        </div>
+        <div class="exp-card-body">
+          <div class="exp-card-title">4-Day Short Salkantay Trek to Machu Picchu with Sky Camp Stay</div>
+          <div class="stars"><span class="rating-num">5.0</span><div class="star-dots"><span></span><span></span><span></span><span></span><span></span></div><span class="review-count">(3,654)</span></div>
+          <div class="price">from ₹49000 per adult</div>
+        </div>
+      </div>
+
+      <div class="exp-card">
+        <div class="exp-card-img">
+          <img src="images/balloon-safari.jpg" alt="Balloon Safari">
+          <button class="heart-btn">🤍</button>
+          <div class="award-badge">🦉<br>2025</div>
+        </div>
+        <div class="exp-card-body">
+          <div class="exp-card-title">Balloon Safari & Bush Breakfast in Serengeti - Miracle Experience</div>
+          <div class="stars"><span class="rating-num">5.0</span><div class="star-dots"><span></span><span></span><span></span><span></span><span></span></div><span class="review-count">(2,252)</span></div>
+          <div class="price">from ₹39000 per adult</div>
+        </div>
+      </div>
+
+      <div class="exp-card">
+        <div class="exp-card-img">
+          <img src="images/zipline.jpg" alt="Zipline">
+          <button class="heart-btn">🤍</button>
+          <div class="badge-pill">Likely To Sell Out</div>
+        </div>
+        <div class="exp-card-body">
+          <div class="exp-card-title">Rotorua Canopy Tours: 2.5Hour Native Forest Zipline Adventure</div>
+          <div class="stars"><span class="rating-num">5.0</span><div class="star-dots"><span></span><span></span><span></span><span></span><span></span></div><span class="review-count">(4,439)</span></div>
+          <div class="price">from ₹6999 per adult</div>
+        </div>
+      </div>
+
+      <div class="exp-card">
+        <div class="exp-card-img">
+          <img src="images/hot-air-balloon.jpg" alt="Hot Air Balloon">
+          <button class="heart-btn">🤍</button>
+          <div class="badge-pill">Best Seller</div>
+        </div>
+        <div class="exp-card-body">
+          <div class="exp-card-title">Teotihuacan Hot Air Balloon Flight from Mexico City / Volare</div>
+          <div class="stars"><span class="rating-num">4.9</span><div class="star-dots"><span></span><span></span><span></span><span></span><span class="half"></span></div><span class="review-count">(1,505)</span></div>
+          <div class="price">from ₹9999 per adult</div>
+        </div>
+      </div>
+
+    </div>
+    <button class="arrow-btn">›</button>
+  </div>
+</section>
+
+<hr class="divider">
+
+<!-- ========== ICONIC PLACES ========== -->
+<section class="section">
+  <div class="section-header">
+    <h2>Iconic places you need to see</h2>
+  </div>
+  <div class="carousel-wrap">
+    <div class="places-grid">
+
+      <div class="place-card">
+        <img src="images/rome.jpg" alt="Rome">
+        <div class="place-label">Rome, Italy</div>
+      </div>
+
+      <div class="place-card">
+        <img src="images/paris.jpg" alt="Paris">
+        <div class="place-label">Paris, France</div>
+      </div>
+
+      <div class="place-card">
+        <img src="images/las-vegas.jpg" alt="Las Vegas">
+        <div class="place-label">Las Vegas, NV</div>
+      </div>
+
+      <div class="place-card">
+        <img src="images/london.jpg" alt="London">
+        <div class="place-label">London, UK</div>
+      </div>
+
+    </div>
+    <button class="arrow-btn">›</button>
+  </div>
+</section>
+
+<hr class="divider">
+
+<!-- ========== KIVA SECTION ========== -->
+<section class="section">
+  <div class="kiva-box">
+    <div class="kiva-img">
+    <img src="images/kiva.jpg" alt="Kiva">
+    </div>
+    <div class="kiva-content">
+      <div class="kiva-logo">🦉 Tripadvisor Foundation</div>
+      <h2>Show some love to small businesses</h2>
+      <p>Donate to Kiva.org today to provide loans to local entrepreneurs and the Tripadvisor Foundation will match it, up to $150,000 USD collectively. Terms apply.</p>
+      <button class="btn-dark">Donate now</button>
+    </div>
+  </div>
+</section>
+
+<hr class="divider">
+
+<!-- ========== SPONSORED ========== -->
+<section class="section">
+  <div class="promo-card">
+    <div class="promo-card-img">
+    <img src="images/tokyo2.jpg" alt="Tokyo">
+    </div>
+    <div class="promo-card-body">
+      <div>
+        <div class="promo-tag">Sponsored by TCVB</div>
+        <div class="promo-title">Discover Tokyo</div>
+        <div class="promo-desc">Find out why travellers like you are raving about Tokyo</div>
+      </div>
+      <button class="btn-outline">Explore now</button>
+    </div>
+  </div>
+</section>
+
+<hr class="divider">
+
+<!-- ========== TRAVELLERS CHOICE ========== -->
+<section class="tc-section">
+  <div class="tc-inner">
+    <div class="tc-content">
+      <div class="tc-badge">🦉<br><span>2026</span></div>
+      <h2>Travellers' Choice Awards Best of the Best</h2>
+      <p>Among our top 1% of places, stays, eats, and experiences—decided by you.</p>
+      <button class="btn-white">See the winners</button>
+    </div>
+    <div class="tc-image-wrap">
+      <div class="circle-yellow"></div>
+      <div class="circle-photo">
+      <img src="images/couple.jpg"
+      </div>
+      <div class="circle-green"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== FOOTER ========== -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-col">
+      <h4>About Tripadvisor</h4>
+      <a href="#">About Us</a>
+      <a href="#">Press</a>
+      <a href="#">Resources and Policies</a>
+      <a href="#">Careers</a>
+      <a href="#">Trust &amp; Safety</a>
+      <a href="#">Contact us</a>
+      <a href="#">Tripadvisor Technology Blog</a>
+    </div>
+    <div class="footer-col">
+      <h4>Explore</h4>
+      <a href="#">Write a review</a>
+      <a href="#">Add a Place</a>
+      <a href="#">Join</a>
+      <a href="#">Travellers' Choice</a>
+      <a href="#">Help Centre</a>
+      <a href="#">Travel Stories</a>
+    </div>
+    <div class="footer-col">
+      <h4>Do Business With Us</h4>
+      <a href="#">Owners &amp; DMO/CVB</a>
+      <a href="#">Business Advantage</a>
+      <a href="#">Sponsored Placements</a>
+      <a href="#">Advertise with Us</a>
+      <a href="#">Access our Content API</a>
+      <h4 style="margin-top:20px">Get The App</h4>
+      <a href="#">iPhone App</a>
+      <a href="#">Android App</a>
+    </div>
+    <div class="footer-col">
+      <h4>Tripadvisor Sites</h4>
+      <a href="#">Book tours and attraction tickets on Viator</a>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="footer-logo">🦉 <strong>Tripadvisor</strong></div>
+    <div class="footer-legal">
+      <a href="#">Terms of Use</a>
+      <a href="#">Privacy and Cookies Statement</a>
+      <a href="#">Cookie consent</a>
+      <a href="#">How the site works</a>
+      <a href="#">Contact us</a>
+      <a href="#">Accessibility Statement</a>
+    </div>
+    <div class="footer-right">
+      <button class="dropdown-btn">₹ INR ▾</button>
+      <button class="dropdown-btn">India ▾</button>
+      <div class="footer-socials">
+        <div class="social-icon">f</div>
+        <div class="social-icon">𝕏</div>
+        <div class="social-icon">𝙿</div>
+      </div>
+    </div>
+  </div>
+  <p class="copyright">© 2026 Tripadvisor LLC All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
